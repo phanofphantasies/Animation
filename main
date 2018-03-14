@@ -1,0 +1,12 @@
+import simplegui
+
+def draw_handler(canvas):
+    canvas.draw_polygon(())
+
+
+
+
+
+frame = simplegui.create_frame("Go", 1000,1000)
+frame.set_draw_handler(draw_handler)
+frame.start()
